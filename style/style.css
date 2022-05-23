@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 28px auto;
+}
+
+.logo{
+    width: 112px;
+    height: 24px;
+}
+
+.nav_ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_ul a{
+    font-size: 12px;
+    color: #1D1F2E;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+.nav_right{
+    max-width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-shopping-bag{
+    font-size: 18px;
+}
+
+.nav_right p{
+    padding: 4px 15px;
+    font-size: 12px;
+}
+
+.header_item{
+    background-color:  #050827;
+    height: 530px;
+    max-width: 100%;
+}
+
+.header_item img{
+    margin-left: 300px;
+    position: absolute;
+}
+
+.header_about{
+     margin: 159px 420px; 
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.head_best{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header_about h1{
+    font-size: 47px;
+    margin: 10px 0;
+}
+
+.head_most{
+    font-size: 17px;
+}
+
+.header_about a{
+    display: block;
+    width: 231px;
+    height: 18px;
+    color: #1D1F2E;
+    background: white;
+    text-decoration: none;
+    margin: 48px auto;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 2px;
+}
+
+.main_title{
+    text-align: center;
+    margin: 123px 470px 0;
+}
+
+.main_title h3{
+    display: block;
+    width: 578px;
+    height: 80px;
+    font-size: 28px;
+}
+
+.main_title p{
+    display: block;
+    width: 580px;
+    height: 112px;
+    font-size: 16px;
+    margin: 16px 0 21px;
+}
+
+.main_title a{
+    color: #A25F4B;
+    font-size: 15px;
+}
+
+.text_a{
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 102px;
+}
+
+.grid-main{
+    max-width: 950px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 50px);
+}
+
+.item-1{
+    text-align: center;
+}
+
+.item-1 h6{
+    font-size: 20px;
+    margin: 35px 0 5px;
+}
+
+.item-1 p{
+    color:  #1D1F2EB2;
+    font-size: 16px;
+}
+
+.item-1 b{
+    color:  #A25F4B;
+    font-size: 19px;
+    padding-right: 10px;
+}
+
+.text_b{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 700px;
+}
+
+.grid-about{
+    max-width: 950px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 550px);
+}
+
+.about-1{
+    text-align: center;
+}
+
+.about-1 h6{
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.about-1 b{
+    color:  #A25F4B;
+    font-size: 19px;
+    padding-right: 10px;
+}
+
+.about-1 p{
+    color: #1D1F2EB2;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.text_c{
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.grid-link{
+    max-width: 910px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 150px);
+}
+
+.link-1{
+    grid-column: 1;
+    grid-row:1/2 ;
+}
+
+.link-2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.link-3{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.link-4{
+    grid-column: 3;
+    grid-row: 1/2;
+    text-align: start;
+}
+
+.link-4a{
+    font-size: 12px;
+    text-transform: uppercase;
+} 
+
+.link-4 h2{
+    font-size:36px ;
+    margin: 25px 0 25px;
+}
+
+.link-4b{
+    font-size: 16px;
+    color:  #1D1F2EB2;
+    margin-bottom: 50px;
+}
+
+.link-4 a{
+    width: 173px;
+    height: 36px;
+    display: block;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 9px;
+    text-decoration: none;
+}
+
+.album{
+    max-width: 100%;
+    height: 340px;
+    background: url(../img/main.png)center/cover;
+}
+
+.text_d{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #1D1F2E;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.grid-content{
+    max-width: 950px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1,  90px);
+}
+
+.content-1{
+    text-align: start;
+}
+
+.content-1 h6{
+    font-size: 20px;
+    display: block;
+    width: 297px;
+    height: 86px;
+    margin-top: 29px;
+}
+
+.content-a{
+    display: block;
+    width: 281px;
+    height: 64px;
+    font-size: 16px;
+    color: #1D1F2EB2;
+}
+
+.content-b{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.footer_item{
+    background: #1D1F2E;
+    max-width: 100%;
+    height: 327px;
+    margin-top: 600px;
+    text-align: center;
+}
+
+.footer_item p{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    padding: 80px 0 35px;
+}
+
+.footer_item h1{
+    font-size: 36px;
+    color: white;
+}
+
+.btn_footer{
+    margin: 35px 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-1{
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    width: 350px;
+    height: 54px;
+    color: white;
+    border: 1px solid #2F303E;
+    padding-top: 19px;
+    text-decoration: none;
+}
+
+.btn-2{
+    font-size: 12px;
+    display: block;
+    width: 129px;
+    height: 54px;
+    background: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top:19px ;
+}
+
+.grid-footer{
+    max-width: 950px;
+    margin: 103px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 150px);
+}
+
+.perfect-1a{
+    font-size: 14px;
+    display: block;
+    width: 258px;
+    height: 40px;
+    color: #1D1F2EB2;
+    margin: 22px 0 81px;
+}
+
+.perfect-1b{
+    font-size: 14px;
+    color: #1D1F2E4D;
+}
+
+.perfect-2{
+    padding:0 70px;
+}
+
+.perfect-2p{
+    font-size: 12px;
+}
+
+.perfect-2 ul{
+    list-style: none;
+    margin-top: 30px;
+    line-height: 28px;
+}
+
+.perfect-2 ul a{
+    font-size: 13px;
+    color: #1D1F2EB2;
+    text-decoration: none;
+}
+
+.perfect-4b{
+    font-size: 14px;
+    margin: 30px 0 20px;
+    color: #1D1F2EB2;
+}
+
+.perfect-4 h6{
+    font-size: 23px;
+    margin-bottom: 60px;
+}
